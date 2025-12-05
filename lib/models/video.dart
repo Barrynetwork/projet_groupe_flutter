@@ -1,8 +1,8 @@
 class Video {
   final String id;
   final String title;
-  final String platform; // YouTube, WatchOn, etc.
-  final String url; // lien du flux ou de la vidéo
+  final String platform;
+  final String url; 
   final String thumbnail;
 
   Video({
@@ -21,3 +21,4 @@ class Video {
     thumbnail: j['thumbnail'] ?? '',
   );
 }
+
