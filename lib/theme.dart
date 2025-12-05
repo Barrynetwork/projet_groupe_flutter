@@ -9,7 +9,7 @@ ThemeData buildTheme() {
     appBarTheme: AppBarTheme(
       centerTitle: true,
       backgroundColor:
-          seedColor, // ou Colors.transparent si tu veux un effet M3
+          seedColor, 
       foregroundColor: Colors.white, // texte/icônes en blanc
     ),
   );
