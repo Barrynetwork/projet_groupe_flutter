@@ -1,4 +1,4 @@
-name: flutter_application_projet_group
+name: flutter_rts
 description: "A new Flutter project."
 publish_to: 'none'
 version: 0.1.0
@@ -6,14 +6,26 @@ version: 0.1.0
 environment:
   sdk: ^3.9.2
 
+dev_dependencies:
+  flutter_lints: ^3.0.1
+
+
 dependencies:
   flutter:
     sdk: flutter
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^5.0.0
+  provider: ^6.0.5
+  go_router: any
+  http: ^1.2.2
+  intl: ^0.19.0
+  url_launcher: ^6.3.2
+  just_audio: ^0.10.5
+  video_player: ^2.10.1
+  youtube_player_flutter: ^9.1.3
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/mock/programs.json
+    - assets/mock/news.json
+    - assets/mock/videos.json
+    - assets/mock/radios.json
