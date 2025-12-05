@@ -7,17 +7,17 @@ import 'screens/replay_list_screen.dart';
 import 'screens/program_detail_screen.dart';
 import 'screens/news_detail_screen.dart';
 import 'screens/video_detail_screen.dart';
-import 'screens/radio_list_screen.dart'; // 👈 ajouté
-import 'screens/radio_detail_screen.dart'; // 👈 ajouté
+import 'screens/radio_list_screen.dart';
+import 'screens/radio_detail_screen.dart'; 
 
 GoRouter buildRouter() {
   return GoRouter(
     routes: [
-      // 🔑 Auth & Home
+      
       GoRoute(path: '/', builder: (_, __) => const LoginScreen()),
       GoRoute(path: '/home', builder: (_, __) => const HomeScreen()),
 
-      // 📺 Programmes
+   s
       GoRoute(path: '/programs', builder: (_, __) => const ProgramListScreen()),
       GoRoute(
         path: '/program/:id',
@@ -25,7 +25,7 @@ GoRouter buildRouter() {
             ProgramDetailScreen(id: state.pathParameters['id']!),
       ),
 
-      // 📰 Actualités
+      
       GoRoute(path: '/news', builder: (_, __) => const NewsListScreen()),
       GoRoute(
         path: '/news/:id',
@@ -33,10 +33,10 @@ GoRouter buildRouter() {
             NewsDetailScreen(id: state.pathParameters['id']!),
       ),
 
-      // 🔁 Replay
+      
       GoRoute(path: '/replay', builder: (_, __) => const ReplayListScreen()),
 
-      // 📻 Radios
+      
       GoRoute(path: '/radios', builder: (_, __) => const RadioListScreen()),
       GoRoute(
         path: '/radio/:id',
@@ -44,7 +44,7 @@ GoRouter buildRouter() {
             RadioDetailScreen(id: state.pathParameters['id']!),
       ),
 
-      // 🎥 Vidéos
+      
       GoRoute(
         path: '/video/:id',
         builder: (_, state) =>
