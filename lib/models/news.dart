@@ -3,7 +3,7 @@ class News {
   final String title;
   final String category;
   final String summary;
-  final String content; // nouveau champ
+  final String content; 
   final String imageUrl;
 
   News({
@@ -20,7 +20,8 @@ class News {
     title: j['title'],
     category: j['category'],
     summary: j['summary'],
-    content: j['content'] ?? '', // lecture du champ
+    content: j['content'] ?? '',
     imageUrl: j['imageUrl'] ?? '',
   );
 }
+
