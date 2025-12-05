@@ -1,0 +1,34 @@
+[
+  {
+    "id": "r1",
+    "name": "La Première",
+    "frequency": "92.5 FM",
+    "description": "Infos, débats et musique généraliste.",
+    "streamUrl": "https://stream.srg-ssr.ch/m/la-1ere/mp3_128",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Radio_icon.png"
+  },
+  {
+    "id": "r2",
+    "name": "Espace 2",
+    "frequency": "100.1 FM",
+    "description": "Culture et musique classique.",
+    "streamUrl": "https://stream.srg-ssr.ch/m/espace-2/mp3_128",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Radio_icon.png"
+  },
+  {
+    "id": "r3",
+    "name": "Couleur 3",
+    "frequency": "106.8 FM",
+    "description": "Musique alternative et culture pop.",
+    "streamUrl": "https://stream.srg-ssr.ch/m/couleur3/mp3_128",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Radio_icon.png"
+  },
+  {
+    "id": "r4",
+    "name": "Option Musique",
+    "frequency": "88.2 FM",
+    "description": "Variété francophone et internationale.",
+    "streamUrl": "https://stream.srg-ssr.ch/m/option-musique/mp3_128",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Radio_icon.png"
+  }
+]

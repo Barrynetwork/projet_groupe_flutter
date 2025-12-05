@@ -1,0 +1,37 @@
+[
+  {
+    "id": "v1",
+    "title": "Big Buck Bunny (MP4)",
+    "platform": "Test",
+    "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "thumbnail": "https://img.youtube.com/vi/aqz-KE-bpKQ/0.jpg"
+  },
+  {
+    "id": "v2",
+    "title": "Sintel (HLS)",
+    "platform": "Test",
+    "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
+    "thumbnail": "https://img.youtube.com/vi/eRsGyueVLvQ/0.jpg"
+  },
+  {
+    "id": "v3",
+    "title": "Talk Show RTS",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=WUev3HbC56k",
+    "thumbnail": "https://img.youtube.com/vi/WUev3HbC56k/0.jpg"
+  },
+  {
+    "id": "v4",
+    "title": "Journal Télévisé RTS",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=-dCotp5YNxo",
+    "thumbnail": "https://img.youtube.com/vi/-dCotp5YNxo/0.jpg"
+  },
+  {
+    "id": "v5",
+    "title": "Documentaire Culture RTS",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
+    "thumbnail": "https://img.youtube.com/vi/aqz-KE-bpKQ/0.jpg"
+  }
+]
