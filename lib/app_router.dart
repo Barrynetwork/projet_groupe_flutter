@@ -17,7 +17,7 @@ GoRouter buildRouter() {
       GoRoute(path: '/', builder: (_, __) => const LoginScreen()),
       GoRoute(path: '/home', builder: (_, __) => const HomeScreen()),
 
-   s
+   
       GoRoute(path: '/programs', builder: (_, __) => const ProgramListScreen()),
       GoRoute(
         path: '/program/:id',
